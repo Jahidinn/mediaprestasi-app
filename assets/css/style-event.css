@@ -1,0 +1,94 @@
+
+.section-event .event {
+	background-color: #fff;
+	font-family: 'Raleway',sans-serif;
+
+}
+.section-event .event .judul{
+	color: #26b3ff;
+	font-weight: 600;
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+.section-event .event .judul-event h2{
+	font-weight: 550;
+	color: #555;
+	font-size: 28px;
+}
+.section-event .event .judul-event h6{
+	color: #888;
+	font-size: 12px;
+}
+.section-event .event .judul-event a {
+	color: #26b3ff;
+	font-size: 14px;
+}
+.section-event .event .isi-content .gambar{
+	background-color: none;
+	overflow: hidden;
+}
+.section-event .event .isi-content .gambar img{
+	max-width: 500px;
+	margin: 10px auto;
+	display: block;
+}
+.section-event .event .isi-content .gambar iframe{
+	width: 100%;
+	height: 500px;
+	background-color: #fff;
+}
+.section-event .event .isi-content .isi p{
+	margin: 0;
+	margin-top: 5px;
+}
+.section-event .event .form form {
+	font-size: 15px;
+}
+.section-event .event .btn-submit{
+	background-color: #26b3ff;
+	padding: 5px 10px;
+	border-radius: 0;
+	border:none;
+	color: #fff;
+}
+.section-event .event .share-button{
+}
+.section-event .event .share-button .tombol-fb,.section-event .event .share-button .tombol-wa, .section-event .event .share-button .tombol-ig, .section-event .event .share-button .tombol-twitter {
+    border-radius: 50px;
+    padding: 2px 20px;
+    border: none;
+}
+.section-event .event .share-button .tombol-fb{
+    background-color: #3b5998;
+}
+.section-event .event .share-button .tombol-wa{
+    background-color: #25d366;
+}.section-event .event .share-button .tombol-twitter{
+    background-color: #26b3ff;
+}
+.section-event .event .share-button .tombol-ig{
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+}
+
+.section-event .event .komentar .komentar-event {
+	background-color: #f7f7f7;
+}
+.sidebar .event-sidebar h4 {
+	font-size: 17px;
+	color: #888;
+	font-family: 'Poppins',sans-serif;
+	margin: 3px 0;
+}
+.sidebar .event-sidebar h4:hover {
+	color: #26b3ff;
+}
+.sidebar .event-sidebar h5 {
+	font-size: 11px;
+	color: #999;
+	margin: 3px 0;
+}
+
+@media (max-width: 968px) {
+	.section-event .event .isi-content .gambar img{
+	max-width: 200px;
+}

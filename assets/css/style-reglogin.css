@@ -1,0 +1,59 @@
+#reglogin {
+  padding: 30px 0;
+  font-family: "Poppins", sans-serif;
+}
+#reglogin form{
+  text-align: left;
+}
+#reglogin .judul-login .judul-section2{
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #26b3ff;
+  font-size: 22px;
+}
+#reglogin .container .login{
+  background-color: #fff;
+  padding: 30px 40px;
+  width: 650px; 
+  margin: auto;
+}
+#reglogin .container .login form input{
+  margin-top: 8px;
+  border-radius: 0;
+  color: #888;
+  font-size: 15px;
+}
+#reglogin .container .login form input::placeholder, #reglogin .container .login form label {
+  color: #999;
+  font-size: 14px;
+}
+#reglogin .container .login form label {
+  color: #444;
+}
+#reglogin form .btn-submit, #reglogin form .btn-fb, #reglogin form .btn-gogl {
+  border: none;
+  border-radius: 0;
+  color: #fff;
+  margin: 5px 10px 5px 0;
+
+}
+#reglogin form .btn-submit {
+  background-color: #26b3ff;
+  padding: 5px 25px ;
+}
+#reglogin form .btn-fb {
+  background-color: #3b5998;
+  font-size: 13px;
+  padding: 3px 10px ;
+}
+#reglogin form .btn-gogl {
+  background-color: #e92f29;
+  font-size: 13px;
+  padding: 3px 10px ;
+}
+@media (max-width: 780px) {
+#reglogin .container .login{
+  width: 98%;
+  padding: 20px 10px;
+}
+}

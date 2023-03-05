@@ -1,0 +1,148 @@
+#user-profil {
+	/*background-color: #26b3ff;*/
+	background-image: url('../img/background/success_user.png');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 20px 0;
+	z-index: 18;
+	top: 10%;
+	width: 100%;
+	font-family: 'Raleway', sans-serif;
+
+}
+#user-profil .foto-profil {
+	overflow: hidden;
+	background-color: #fff;
+	box-shadow: 12px 12px 15px rgba(73, 78, 92, 0.1);
+	margin: auto;
+	width: 150px;
+	height: 150px; 
+	position: relative;
+}
+#user-profil .foto-profil img {
+	max-height: 150px;
+  max-width: 150px;
+  height: auto;
+  width: auto;
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-sizing: border-box;
+  margin: auto;
+}
+#user-profil .nama h3, #user-profil .nama h4,#user-profil .nama p{
+	color: #fff;
+	font-family: 'Poppins' sans-serif;
+	margin: 5px 0;
+}
+#user-profil .nama h3{
+	font-weight: 550;
+	font-size: 22px;
+}
+#user-profil .nama h4{
+	font-weight: 550;
+	font-size: 15px;
+}
+#user-profil .nama p{
+	font-family: 'Poppins';
+	font-weight: 500;
+	font-size: 14px;
+}
+
+.menu-profile {
+background-color: #f8f9fa;
+  padding: 0;
+}
+.menu-profile .menu-profil-header {
+	 padding: 0;
+	 background-color: #f8f9fa;
+}
+
+.menu-profile .box-menu{
+  background-color: #fff;
+  position: relative;
+  border-bottom: 1px solid #ddd ;
+  text-align: center;
+  margin: 0 ;
+  padding: 0 ;
+  border:none;
+  z-index: 4;
+
+}
+.tab-content {
+	word-wrap: break-word;
+	text-align: left;
+	width: auto;
+}
+.tab-content .tab-pane{
+	margin: 10px 0px;
+	background-color: #fff;
+	padding: 20px 20px;
+	box-shadow: 0px 0px 15px rgba(73, 78, 92, 0.1);
+}
+.tab-content .tab-pane .judul{
+	color: #26b3ff;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+.tab-content .tab-pane p{
+	margin: 10px 0;
+}
+.tab-content .tab-pane .tombol-setting {
+	background-color: #fec32b;
+	border-radius: 0;
+	border:none;
+	font-size: 15px;
+	color: #fff;
+	margin-top: 0;
+	margin-bottom: 3px;
+}
+.tab-content .tab-pane .row {
+	margin: 0;
+}
+.tab-content .tab-pane .detail-kiri, .tab-content .tab-pane .detail-kanan {
+	padding: 0;
+	width: 50%;
+}
+.tab-content .tab-pane .detail-kiri p, .tab-content .tab-pane .detail-kanan p {
+	margin: 7px 0;
+}
+
+.menu-profile .box-menu a{
+  padding: 10px 20px;
+  color: #666;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+}
+.menu-profile .box-menu .active{
+  background-color: #fec32b;
+  color:#fff;
+
+}
+
+.tab-content .active {
+
+}
+@media (max-width: 767px) {
+	.menu-profile .box-menu a .menu-user{
+		display: none;
+	}
+	.menu-profile .menu-profil-header {
+		padding: 0 10px;
+	}
+	.tab-content {
+		padding: 0;
+		margin: 0 0px;
+	}
+	.tab-content .tab-pane{
+		margin:  0px 0px;
+		padding: 10px 20px;
+	}
+
+}
